@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/pet-logo.webp">
+    <title>Animal Wiki</title>
+</head>
+<body class="bg-light" >
+    <div class="container">
+
+        <div class="head-section">
+
+
+            <div class="logo-section">      
+                <img src="img/pet-logo.webp" alt="logo">
+                <h3 class="mt-3 text-warning">animal wiki</h3>
+
+                <ul class="nav mt-2">
+               
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="wiki.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <form id="formOne" class="mt-3 mb-3 p-4">
+            
+            <h4>Enter the name of an animal below</h4>
+            <div class="input-group">
+                <input id="animal-name" class="form-control" type="text" aria-label="" aria-describedby="basic-addon1" placeholder="Search..." required>
+                
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-success search">Search</button>
+                </div>
+            </div>
+        </form>
+            
+        
+        <div class="search-result">
+            <button class="btn btn-success" id="green">Lion</button>
+            <button class="btn btn-warning" id="yellow">Penguin</button>
+            <button class="btn btn-danger" id="red">Bear</button>
+
+            <h1 class="text-center text-secondary">🐶Animal Wiki</h1>
+        
+
+            <div class="unavailable">
+                <h4>Sorry, we do not have information on that animal available.</h4>
+            </div>
+            <div id="LION-INFO">
+                <h2 class="clickable">Lion</h2>
+                <div class="moreOne">
+                    <img src="img/lion.jpeg" alt="">
+                    <p>The lion is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its tail. Adult male lions are larger than females and have a prominent mane.Source: Wikipedia</p>
+                </div>
+            </div>
+
+            <div id="BEAR-INFO">
+                <h2 class="clickableOne">Bear</h2>
+                <div class="moreTwo">
+                    <img src="img/pexels-photo-3048722.jpeg" alt="">
+                    <p>Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere. Source: Wikipedia</p>
+                </div>
+            </div>
+
+            <div id="PENGUIN-INFO">
+                <h2 class="clickableTwo">Penguin</h2>
+                <div class="moreThree">
+                    <img src="img/penguin-funny-blue-water-86405.webp" alt="">
+                    <p>Penguins are a group of aquatic flightless birds from the order Sphenisciformes of the family Spheniscidae. They live almost exclusively in the Southern Hemisphere: only one species, the Galápagos penguin, is found north of the Equator. Source: Wikipedia</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
