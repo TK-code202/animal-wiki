@@ -1,0 +1,178 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.background img {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+}
+
+
+
+.logo-section img {
+    max-width: 60px;
+    max-height: 60%;
+    border-radius: 100px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-left: 5%;
+}
+
+.nav {
+    margin-left: 12%;
+}
+
+.active {
+font-weight: 700;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.showcase {
+    margin-top: 15%;
+    margin-left: 9%;
+    background-color: rgba(245, 245, 220, 0.719);
+    padding: 10px;
+    width: 60%;
+}
+
+.text-smaller {
+    font-size: 1.6rem;
+    font-family: cursive;
+    color: rgb(210, 153, 30);
+}
+
+.main-text {
+    font-size: 2.2rem;
+    width: 50%;
+    color: rgb(13, 7, 68);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.heading {
+    margin-left: 27%;
+    font-size: 1.7rem;
+    font-family: cursive;
+}
+
+.gallery-info {
+    padding: 40px;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-bottom: 7%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: rgb(51, 51, 46);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.gallery {
+    margin-top: 18%;
+}
+
+.gallery-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 300%;
+    margin-left: 32%;
+}
+
+.informationOne {
+    justify-content: center;
+    width: 32%;
+    background-color: rgb(240, 237, 237);
+    padding: 8px;
+}
+
+.informationTwo {
+    justify-content: center;
+    width: 32%;
+    background-color: rgb(240, 237, 237);
+    padding: 8px;
+}
+
+.informationThree {
+    justify-content: center;
+    width: 32%;
+    background-color: rgb(240, 237, 237);
+    padding: 11px;
+}
+
+.footer {
+    margin-right: -10%;
+   width: 105%;
+   color: white;
+   font-size: 1.1rem;
+   margin-bottom: 0;
+   min-height: 40px;
+}
+
+.search-result {
+    padding: 10px;
+    width: 70%;
+    margin-left: 16%;
+    background-color: bisque;
+    margin-bottom: 5%;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.search {
+    border-radius: 18px;
+}
+
+.unavailable, #LION-INFO, #BEAR-INFO, #PENGUIN-INFO {
+    display: none;
+}
+
+.clickable, .clickableOne, .clickableTwo {
+    cursor: pointer;
+}
+
+.moreOne, .moreTwo, .moreThree {
+    background-color: cornflowerblue;
+    max-width: 35rem;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.moreOne img, .moreTwo img, .moreThree img {
+    width: 100%;
+}
+
+.row {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.col-sm img {
+    width: 90%;
+}
+
+.tag {
+    background-color: gainsboro;
+    width: 90%;
+}
