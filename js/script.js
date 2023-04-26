@@ -40,8 +40,7 @@ $(document).ready(function() {
 
         event.preventDefault();
     });
-
-    
+ 
     // Animal Buttons
     $(".clickable").click(function(){
         $(".moreOne").show(1000);
