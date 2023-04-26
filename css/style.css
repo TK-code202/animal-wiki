@@ -10,15 +10,6 @@ body {
     padding: 0;
 }
 
-.background img {
-    width: 100%;
-    height: 80%;
-    position: absolute;
-    z-index: -1;
-    top: 10%;
-}
-
-
 
 .logo-section img {
     max-width: 60px;
@@ -48,6 +39,15 @@ font-weight: 700;
 
 
 /* index.html */
+
+.background img {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+}
+
 .showcase {
     margin-top: 15%;
     margin-left: 9%;
